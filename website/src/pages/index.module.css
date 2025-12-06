@@ -1,0 +1,119 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh; /* Make hero section taller */
+}
+
+.heroTitle {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  color: var(--ifm-color-emphasis-700);
+  max-width: 800px;
+  margin-bottom: 2rem;
+}
+
+.robotAnimation {
+  width: 100%;
+  max-width: 600px; /* Adjust size as needed */
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem; /* Space between buttons */
+}
+
+.section {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.featureItem {
+  flex-basis: 30%;
+  min-width: 300px;
+  padding: 1.5rem;
+  border-radius: var(--ifm-border-radius);
+  box-shadow: var(--ifm-shadow-md);
+  text-align: left;
+}
+
+.tablesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.tableWrapper {
+  width: 100%;
+  max-width: 800px;
+  overflow-x: auto;
+}
+
+.tableWrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.tableWrapper th, .tableWrapper td {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  padding: 0.8rem;
+  text-align: left;
+}
+
+.tableWrapper th {
+  background-color: var(--ifm-background-color);
+  font-weight: bold;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+    min-height: unset;
+  }
+  .heroTitle {
+    font-size: 2rem;
+  }
+  .heroSubtitle {
+    font-size: 1.2rem;
+  }
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  .featureItem {
+    flex-basis: 100%;
+  }
+}
