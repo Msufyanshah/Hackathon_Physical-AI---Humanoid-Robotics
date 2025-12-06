@@ -50,6 +50,7 @@ const config: Config = {
           editUrl:
             'https://github.com/Msufyanshah/Hackathon_Physical-AI---Humanoid-Robotics/tree/main/Physical-AI-&-Humanoid-Robotics-Book-Part-I/website/docs/',
           showLastUpdateTime: true,
+          remarkPlugins: [(await import('remark-mermaid')).default],
         },
         theme: {
           customCss: './src/css/custom.css',
