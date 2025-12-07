@@ -17,14 +17,14 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: '00 - Introduction',
-      link: {type: 'doc', id: '00-introduction/intro'}, // Link to the intro page itself
+      link: {type: 'doc', id: 'introduction/intro'}, // Link to the intro page itself
       collapsible: true,
       collapsed: false, // Keep Introduction open by default
       items: [
-        '00-introduction/intro',
-        '00-introduction/syllabus',
-        '00-introduction/hardware-requirements',
-        '00-introduction/installation-guide',
+        'introduction/intro',
+        'introduction/syllabus',
+        'introduction/hardware-requirements',
+        'introduction/installation-guide',
       ],
     },
     {
@@ -33,9 +33,9 @@ const sidebars: SidebarsConfig = {
       collapsible: true,
       collapsed: true,
       items: [
-        '01-foundations/01-what-is-physical-ai',
-        '01-foundations/02-embodied-intelligence',
-        '01-foundations/03-history-and-landscape',
+        'foundations/what-is-physical-ai',
+        'foundations/embodied-intelligence',
+        'foundations/history-and-landscape',
       ],
     },
     {
@@ -44,10 +44,10 @@ const sidebars: SidebarsConfig = {
       collapsible: true,
       collapsed: true,
       items: [
-        '02-ros2-nervous-system/01-ros2-concepts',
-        '02-ros2-nervous-system/02-first-nodes',
-        '02-ros2-nervous-system/03-services-actions',
-        '02-ros2-nervous-system/04-launch-and-params',
+        'ros2-nervous-system/ros2-concepts',
+        'ros2-nervous-system/first-nodes',
+        'ros2-nervous-system/services-actions',
+        'ros2-nervous-system/launch-and-params',
       ],
     },
     {
@@ -56,9 +56,9 @@ const sidebars: SidebarsConfig = {
       collapsible: true,
       collapsed: true,
       items: [
-        '03-robot-description/01-urdf-xacro',
-        '03-robot-description/02-humanoid-urdf',
-        '03-robot-description/03-sdf-and-gazebo',
+        'robot-description/urdf-xacro',
+        'robot-description/humanoid-urdf',
+        'robot-description/sdf-and-gazebo',
       ],
     },
     {
@@ -67,9 +67,9 @@ const sidebars: SidebarsConfig = {
       collapsible: true,
       collapsed: true,
       items: [
-        '04-simulation/01-gazebo-classic',
-        '04-simulation/02-ignition-harmonic',
-        '04-simulation/03-isaac-sim-omniverse',
+        'simulation/gazebo-classic',
+        'simulation/ignition-harmonic',
+        'simulation/isaac-sim-omniverse',
       ],
     },
     {
@@ -78,9 +78,9 @@ const sidebars: SidebarsConfig = {
       collapsible: true,
       collapsed: true,
       items: [
-        '05-perception/01-sensors-realsense',
-        '05-perception/02-isaac-ros-visual-slam',
-        '05-perception/03-3d-vision-fusion',
+        'perception/sensors-realsense',
+        'perception/isaac-ros-visual-slam',
+        'perception/03-3d-vision-fusion',
       ],
     },
     {
@@ -89,9 +89,9 @@ const sidebars: SidebarsConfig = {
       collapsible: true,
       collapsed: true,
       items: [
-        '06-navigation-locomotion/01-nav2-stack',
-        '06-navigation-locomotion/02-bipedal-planning',
-        '06-navigation-locomotion/03-balance-and-recovery',
+        'navigation-locomotion/nav2-stack',
+        'navigation-locomotion/bipedal-planning',
+        'navigation-locomotion/balance-and-recovery',
       ],
     },
     {
@@ -100,9 +100,9 @@ const sidebars: SidebarsConfig = {
       collapsible: true,
       collapsed: true,
       items: [
-        '07-vision-language-action/01-vla-overview',
-        '07-vision-language-action/02-llm-to-ros-bridge',
-        '07-vision-language-action/03-conversational-robotics',
+        'vision-language-action/vla-overview',
+        'vision-language-action/llm-to-ros-bridge',
+        'vision-language-action/conversational-robotics',
       ],
     },
     {
@@ -111,9 +111,9 @@ const sidebars: SidebarsConfig = {
       collapsible: true,
       collapsed: true,
       items: [
-        '08-capstone/01-project-overview',
-        '08-capstone/02-milestones',
-        '08-capstone/03-final-demo',
+        'capstone/project-overview',
+        'capstone/milestones',
+        'capstone/final-demo',
       ],
     },
     {
@@ -122,10 +122,10 @@ const sidebars: SidebarsConfig = {
       collapsible: true,
       collapsed: true,
       items: [
-        '09-appendix/hardware-kits',
-        '09-appendix/sim-to-real-cookbook',
-        '09-appendix/troubleshooting',
-        '09-appendix/glossary',
+        'appendix/hardware-kits',
+        'appendix/sim-to-real-cookbook',
+        'appendix/troubleshooting',
+        'appendix/glossary',
       ],
     },
     // Additional pages

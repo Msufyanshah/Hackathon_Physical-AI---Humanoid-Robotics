@@ -36,7 +36,11 @@ const config: Config = {
     locales: ['en'],
   },
 
-  plugins: [require.resolve('@docusaurus/theme-search-local')],
+  // No additional plugins needed; search is included in classic preset
+
+  themes: [
+    '@docusaurus/theme-mermaid',
+  ],
 
   presets: [
     [
@@ -50,7 +54,12 @@ const config: Config = {
           editUrl:
             'https://github.com/Msufyanshah/Hackathon_Physical-AI---Humanoid-Robotics/tree/main/Physical-AI-&-Humanoid-Robotics-Book-Part-I/website/docs/',
           showLastUpdateTime: true,
-          remarkPlugins: [(await import('remark-mermaid')).default],
+          showLastUpdateAuthor: true,
+          // Enable the right sidebar table of contents
+          tableOfContents: {
+            maxHeadingLevel: 4,
+            minHeadingLevel: 2,
+          },
         },
         theme: {
           customCss: './src/css/custom.css',
