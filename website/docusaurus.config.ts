@@ -55,11 +55,6 @@ const config: Config = {
             'https://github.com/Msufyanshah/Hackathon_Physical-AI---Humanoid-Robotics/tree/main/Physical-AI-&-Humanoid-Robotics-Book-Part-I/website/docs/',
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
-          // Enable the right sidebar table of contents
-          tableOfContents: {
-            maxHeadingLevel: 4,
-            minHeadingLevel: 2,
-          },
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -121,6 +116,10 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    tableOfContents: {
+      maxHeadingLevel: 4,
+      minHeadingLevel: 2,
     },
   } satisfies Preset.ThemeConfig,
 };

@@ -15,15 +15,18 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.robotAnimation}>
           {/* Placeholder for Lottie animation or GIF */}
-          <img src="https://lottie.host/embed/41a1a511-d14f-4d37-9753-48b4884f67d3/H3L1JqE7hC.json" alt="Animated Humanoid Robot Placeholder" />
+          <img src="/img/docusaurus.png" alt="Humanoid Robot Visualization" width="300" height="300" />
           {/* A more advanced implementation might use a React Lottie player component */}
         </div>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/intro">
-            Quick Start - 5min ⏱️
+            Begin Your Journey
           </Link>
+        </div>
+        <div className={styles.tagline}>
+          <p>Where Digital Intelligence Meets Physical Reality</p>
         </div>
       </div>
     </header>
