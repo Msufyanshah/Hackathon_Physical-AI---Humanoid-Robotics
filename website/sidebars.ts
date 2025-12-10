@@ -100,9 +100,14 @@ const sidebars: SidebarsConfig = {
       collapsible: true,
       collapsed: true,
       items: [
-        'vision-language-action/vla-overview',
-        'vision-language-action/llm-to-ros-bridge',
-        'vision-language-action/conversational-robotics',
+        '07-vision-language-action/index',
+        '07-vision-language-action/01-vla-overview',
+        '07-vision-language-action/02-llm-to-ros-bridge',
+        '07-vision-language-action/03-conversational-robotics',
+        '07-vision-language-action/04-multimodal-learning',
+        '07-vision-language-action/05-vision-language-models',
+        '07-vision-language-action/06-natural-language-processing',
+        '07-vision-language-action/07-capstone-vla-integration',
       ],
     },
     {
@@ -111,9 +116,9 @@ const sidebars: SidebarsConfig = {
       collapsible: true,
       collapsed: true,
       items: [
-        'capstone/project-overview',
-        'capstone/milestones',
-        'capstone/final-demo',
+        '08-capstone/01-project-overview',
+        '08-capstone/02-milestones',
+        '08-capstone/03-final-demo',
       ],
     },
     {
